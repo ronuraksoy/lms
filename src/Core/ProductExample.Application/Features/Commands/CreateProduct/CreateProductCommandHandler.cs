@@ -11,14 +11,14 @@ using System.Threading.Tasks;
 
 namespace Lms.Application.Features.Commands.CreateProduct
 {
-    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommandRequest, CreateProductCommandResponse>
+    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommandRequest, CreateTeacherCommandResponse>
     {
         readonly IProductRepository _productRepository;
         public CreateProductCommandHandler(IProductRepository productRepository)
         {
             _productRepository = productRepository;
         }
-        public async Task<CreateProductCommandResponse> Handle(CreateProductCommandRequest request, CancellationToken cancellationToken)
+        public async Task<CreateTeacherCommandResponse> Handle(CreateProductCommandRequest request, CancellationToken cancellationToken)
         {
             Product product = new Product
             {
@@ -30,7 +30,7 @@ namespace Lms.Application.Features.Commands.CreateProduct
 
             Product p = await _productRepository.AddAsync(product);
 
-            return new CreateProductCommandResponse
+            return new CreateTeacherCommandResponse
             {
                 Succeed = p == null ? false : true,
                 Message = "Başarıyla eklenmiştir."

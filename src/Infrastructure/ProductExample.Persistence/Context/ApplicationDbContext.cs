@@ -14,7 +14,7 @@ namespace Lms.Persistence.Context
 
         }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Order> Orders { get; set; }
+        public DbSet<User> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

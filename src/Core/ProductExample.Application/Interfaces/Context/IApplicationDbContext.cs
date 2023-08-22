@@ -11,6 +11,6 @@ namespace Lms.Application.Interfaces.Context
     public interface IApplicationDbContext
     {
         public DbSet<Product> Products { get; set; }
-        public DbSet<Order> Orders { get; set; }
+        public DbSet<User> Orders { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Lms.Persistence.Repositories
 {
-    public class OrderRepository : Repository<Order>, IOrderRepository
+    public class OrderRepository : Repository<User>, IOrderRepository
     {
         public OrderRepository(ApplicationDbContext applicationDbContext) : base(applicationDbContext)
         {

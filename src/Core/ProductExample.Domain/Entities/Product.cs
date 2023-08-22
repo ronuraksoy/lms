@@ -14,6 +14,6 @@ namespace Lms.Domain.Entities
         public int Price { get; set; }
         public int Stock { get; set; }
         public Guid OrderId { get; set; }
-        public virtual Order Order { get; set; }
+        public virtual User Order { get; set; }
     }
 }

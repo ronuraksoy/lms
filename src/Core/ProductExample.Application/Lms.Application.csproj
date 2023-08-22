@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Lms.Common.Application\Lms.Common.Application.csproj" />
     <ProjectReference Include="..\ProductExample.Domain\Lms.Domain.csproj" />
   </ItemGroup>
 

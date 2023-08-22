@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Lms.Domain.Entities
 {
-    public class Users : AAuditableEntity<Guid>
+    public class User : AAuditableEntity<Guid>
     {
         public string Email { get; set; }
         public string Username { get; set; }

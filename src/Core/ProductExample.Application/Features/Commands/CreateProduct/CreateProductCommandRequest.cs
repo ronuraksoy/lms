@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lms.Application.Features.Commands.CreateProduct
 {
-    public class CreateProductCommandRequest : IRequest<CreateProductCommandResponse>
+    public class CreateProductCommandRequest : IRequest<CreateTeacherCommandResponse>
     {
         public string Name { get; set; }
         public int Quantity { get; set; }

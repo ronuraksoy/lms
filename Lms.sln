@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lms.Common.Domain", "src\Common\Core\Lms.Common.Domain\Lms.Common.Domain.csproj", "{1D6DE454-AB35-470D-8909-E6F38126AEEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lms.Common.Application", "Lms.Common.Application\Lms.Common.Application.csproj", "{6FABE683-DE48-47E5-9991-DFE5AE833054}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{1D6DE454-AB35-470D-8909-E6F38126AEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D6DE454-AB35-470D-8909-E6F38126AEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D6DE454-AB35-470D-8909-E6F38126AEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FABE683-DE48-47E5-9991-DFE5AE833054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FABE683-DE48-47E5-9991-DFE5AE833054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FABE683-DE48-47E5-9991-DFE5AE833054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FABE683-DE48-47E5-9991-DFE5AE833054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{76A77DCE-C031-42BB-8EA2-18482AB1FA1A} = {81E8A035-82A3-42E7-A1B4-1FC2D695A040}
 		{65596689-C440-4B40-A8EF-82DCB73C7C96} = {81E8A035-82A3-42E7-A1B4-1FC2D695A040}
 		{1D6DE454-AB35-470D-8909-E6F38126AEEB} = {76A77DCE-C031-42BB-8EA2-18482AB1FA1A}
+		{6FABE683-DE48-47E5-9991-DFE5AE833054} = {76A77DCE-C031-42BB-8EA2-18482AB1FA1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5491A1B-ECA9-4E70-AE99-853A2A558113}

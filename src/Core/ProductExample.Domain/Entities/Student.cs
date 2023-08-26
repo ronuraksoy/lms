@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Lms.Domain.Entities
 {
-    public class Teacher : AAuditableEntity<Guid>
+    public class Student : AAuditableEntity<Guid>
     {
         public Guid UserId { get; set; }
         public virtual User User { get; set; }
-        public string? Detail { get; set; }
-        public string? Note { get; set; }
+        public string School { get; set; }
+        public string Grade { get; set; }
     }
 }

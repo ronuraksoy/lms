@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lms.Application.Features.Teacher.Queries
+namespace Lms.Application.Features.Student.Queries
 {
     public class GetStudentPagedListQueryRequest : DtParameters, IRequest<IPagedDataResult<GetStudentPagedListQueryResponse>>
     {

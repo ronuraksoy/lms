@@ -5,14 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lms.Application.Features.Teacher.Queries
+namespace Lms.Application.Features.Student.Queries
 {
     public class GetStudentPagedListQueryResponse : AAuditableEntity<Guid> //Tabloda görünmesini istediğimiz bilgiler
     {
         public Guid UserId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
-        public string? Phone { get; set; }
+        public string? School { get; set; }
+        public string? Grade { get; set; }
     }
 }

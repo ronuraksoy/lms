@@ -1,4 +1,4 @@
-﻿using Lms.Application.Features.Teacher.Queries;
+﻿using Lms.Application.Features.Student.Queries;
 using Lms.Common.Application.Repositories;
 using Lms.Common.Domain.Entities;
 using Lms.Domain.Entities;
@@ -10,8 +10,8 @@ using System.Threading.Tasks;
 
 namespace Lms.Application.Interfaces.Repositories
 {
-    public interface ITeacherRepository : IRepository<Teacher>
+    public interface IStudentRepository : IRepository<Student>
     {
-        Task<IPagedData<Teacher>> GetPagedList(GetStudentPagedListQueryRequest model);
+        Task<IPagedData<Student>> GetPagedList(GetStudentPagedListQueryRequest model);
     }
 }

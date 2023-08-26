@@ -8,12 +8,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lms.Application.Features.Teacher.Commands.CreateTeacher
+namespace Lms.Application.Features.Student.Commands.CreateStudent
 {
     public class CreateStudentCommandRequest : BaseRequest
     {
         public Guid UserId { get; set; }
-        public string? Detail { get; set; }
-        public string? Note { get; set; }
+        public string? School { get; set; }
+        public string? Grade { get; set; }
     }
 }

@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Lms.Application.Features.Teacher.Commands.Validators
 {
-    public class CreateTeacherValidator : AbstractValidator<CreateTeacherCommandRequest>
+    public class CreateStudentValidator : AbstractValidator<CreateStudentCommandRequest>
     {
-        public CreateTeacherValidator()
+        public CreateStudentValidator()
         {
             RuleFor(p => p.Email)
                 .NotNull()

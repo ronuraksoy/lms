@@ -1,4 +1,4 @@
-﻿using Lms.Common.Domain.Entities;
+﻿using Lms.Comman.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

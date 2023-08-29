@@ -17,8 +17,6 @@ namespace Lms.Persistence
         public static void AddPersistenceServices(this IServiceCollection serviceCollection, IConfiguration configuration)
         {
             serviceCollection.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("SQLServer")));
-            serviceCollection.AddTransient<IProductRepository, ProductRepository>();
-            serviceCollection.AddTransient<IOrderRepository, OrderRepository>();
         }
     }
 }

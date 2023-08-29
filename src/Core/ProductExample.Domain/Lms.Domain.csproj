@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Common\Core\Lms.Common.Domain\Lms.Common.Domain.csproj" />
+    <ProjectReference Include="..\..\Common\Core\Lms.Common.Domain\Lms.Comman.Domain.csproj" />
   </ItemGroup>
 
 </Project>

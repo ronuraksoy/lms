@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lms.Common.Domain.Entities
+namespace Lms.Comman.Domain.Entities
 {
     public interface ISuccess
     {

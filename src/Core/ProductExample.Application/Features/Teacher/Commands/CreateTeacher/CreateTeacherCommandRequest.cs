@@ -1,5 +1,4 @@
 ﻿using Lms.Application.Features.Base;
-using Lms.Application.Features.Commands.CreateProduct;
 using Lms.Application.Interfaces.Repositories;
 using MediatR;
 using System;

@@ -9,9 +9,9 @@ namespace Lms.Application.Features.Teacher.Queries.GetAchievementCategoryById
 {
     public class GetAchievementCategoryByIdQueryHandler : IRequestHandler<GetAchievementCategoryByIdQueryRequest, IDataResult<GetAchievementCategoryByIdQueryResponse>>
     {
-        readonly ICategoryRepository _categoryRepository;
+        readonly IAchievementCategoryRepository _categoryRepository;
         IMapper _mapper;
-        public GetAchievementCategoryByIdQueryHandler(ICategoryRepository categoryRepository, IMapper mapper)
+        public GetAchievementCategoryByIdQueryHandler(IAchievementCategoryRepository categoryRepository, IMapper mapper)
         {
             _categoryRepository = categoryRepository;
             _mapper = mapper;

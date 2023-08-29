@@ -2,9 +2,8 @@
 using FluentValidation;
 using Lms.Application.Features.Base;
 using Lms.Application.Interfaces.Repositories;
-using Lms.Application.Interfaces.UnitOfWork;
 using Lms.Common.Application.UnitOfWork;
-using Lms.Common.Domain.Entities;
+using Lms.Comman.Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;

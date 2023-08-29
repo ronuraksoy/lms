@@ -1,4 +1,5 @@
-﻿using Lms.Domain.Entities;
+﻿using Lms.Common.Application.Repositories;
+using Lms.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Lms.Application.Interfaces.Repositories
 {
-    public interface IOrderRepository : IRepository<User>
+    public interface IOrderRepository : IRepository<Order>
     {
     }
 }

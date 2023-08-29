@@ -18,9 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\ProductExample.Application\Lms.Application.csproj" />
-    <ProjectReference Include="..\..\Infrastructure\ProductExample.Infrastructure\Lms.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\Infrastructure\ProductExample.Persistence\Lms.Persistence.csproj" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

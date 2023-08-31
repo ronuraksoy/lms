@@ -17,9 +17,9 @@ namespace Lms.Application.Features.Category.Commands.CreateCategory
         private readonly IValidator<CreateCategoryCommandRequest> _validator;
         private readonly IUnitOfWork _unitOfWork;
 
-        public CreateCategoryCommandHandler(ICategoryRepository achievementCategoryRepository, IMapper mapper, IValidator<CreateCategoryCommandRequest> validator, IUnitOfWork unitOfWork)
+        public CreateCategoryCommandHandler(ICategoryRepository categoryRepository, IMapper mapper, IValidator<CreateCategoryCommandRequest> validator, IUnitOfWork unitOfWork)
         {
-            _categoryRepository = achievementCategoryRepository;
+            _categoryRepository = categoryRepository;
             _mapper = mapper;
             _validator = validator;
             _unitOfWork = unitOfWork;

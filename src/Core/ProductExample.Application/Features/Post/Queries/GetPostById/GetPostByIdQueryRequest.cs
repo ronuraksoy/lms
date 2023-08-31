@@ -1,13 +1,8 @@
-﻿using Lms.Application.Features.Teacher.Queries.GetCategoryById;
-using Lms.Comman.Domain.Entities;
+﻿using Lms.Comman.Domain.Entities;
 using MediatR;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Lms.Application.Features.Post.Queries.GetCategoryById
+namespace Lms.Application.Features.Post.Queries.GetPostById
 {
     public class GetPostByIdQueryRequest : IRequest<IDataResult<GetPostByIdQueryResponse>>
     {

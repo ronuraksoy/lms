@@ -5,7 +5,7 @@ using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Lms.Application.Features.Teacher.Queries.GetAchievementCategoryById
+namespace Lms.Application.Features.AchievementCategory.Queries.GetAchievementCategoryById
 {
     public class GetAchievementCategoryByIdQueryHandler : IRequestHandler<GetAchievementCategoryByIdQueryRequest, IDataResult<GetAchievementCategoryByIdQueryResponse>>
     {

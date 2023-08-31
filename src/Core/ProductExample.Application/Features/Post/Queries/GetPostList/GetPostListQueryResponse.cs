@@ -1,10 +1,4 @@
-﻿using Lms.Application.Features.Post.Queries.GetCategoryById;
-using Lms.Application.Features.Teacher.Queries.GetCategoryById;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Lms.Application.Features.Post.Queries.GetPostById;
 
 namespace Lms.Application.Features.Post.Queries.GetPostList
 {

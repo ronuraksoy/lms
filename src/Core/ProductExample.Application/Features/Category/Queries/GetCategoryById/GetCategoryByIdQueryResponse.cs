@@ -1,4 +1,4 @@
-﻿namespace Lms.Application.Features.Teacher.Queries.GetCategoryById
+﻿namespace Lms.Application.Features.Category.Queries.GetCategoryById
 {
     public class GetCategoryByIdQueryResponse
     {

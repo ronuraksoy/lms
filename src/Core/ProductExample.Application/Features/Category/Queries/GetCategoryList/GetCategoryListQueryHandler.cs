@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Lms.Application.Features.Teacher.Queries.GetCategoryList
+namespace Lms.Application.Features.Category.Queries.GetCategoryList
 {
     public class GetCategoryListQueryHandler : IRequestHandler<GetCategoryListQueryRequest, IDataResult<IEnumerable<GetCategoryListQueryResponse>>>
     {

@@ -2,7 +2,7 @@
 using MediatR;
 using System.Collections.Generic;
 
-namespace Lms.Application.Features.Teacher.Queries.GetAchievementCategoryList
+namespace Lms.Application.Features.AchievementCategory.Queries.GetAchievementCategoryList
 {
     public class GetAchievementCategoryListQueryRequest : IRequest<IDataResult<IEnumerable<GetAchievementCategoryListQueryResponse>>>
     {

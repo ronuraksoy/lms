@@ -1,6 +1,6 @@
-﻿using Lms.Application.Features.Teacher.Queries.GetAchievementCategoryById;
+﻿using Lms.Application.Features.AchievementCategory.Queries.GetAchievementCategoryById;
 
-namespace Lms.Application.Features.Teacher.Queries.GetAchievementCategoryList
+namespace Lms.Application.Features.AchievementCategory.Queries.GetAchievementCategoryList
 {
     public class GetAchievementCategoryListQueryResponse : GetAchievementCategoryByIdQueryResponse //Tabloda görünmesini istediğimiz bilgiler
     {

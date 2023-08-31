@@ -1,4 +1,6 @@
-﻿using Lms.Application.Interfaces.Repositories;
+﻿using Lms.Application.Features.PostLike.Queries.GetPostLikePagedList;
+using Lms.Application.Interfaces.Repositories;
+using Lms.Comman.Domain.Entities;
 using Lms.Comman.Persistence.Repositories;
 using Lms.Domain.Entities;
 using Lms.Persistence.Context;
@@ -7,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Lms.Persistence.Repositories
@@ -15,6 +18,11 @@ namespace Lms.Persistence.Repositories
     {
         public PostLikeRepository(ApplicationDbContext dbContext, ILogger<PostLike> logger) : base(dbContext, logger)
         {
+        }
+
+        public Task<IPagedData<PostLike>> GetPagedList(GetPostLikePagedListQueryRequest model, CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
         }
     }
 }

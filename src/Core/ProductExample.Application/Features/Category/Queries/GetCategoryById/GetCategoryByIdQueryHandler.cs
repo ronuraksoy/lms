@@ -5,7 +5,7 @@ using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Lms.Application.Features.Teacher.Queries.GetCategoryById
+namespace Lms.Application.Features.Category.Queries.GetCategoryById
 {
     public class GetCategoryByIdQueryHandler : IRequestHandler<GetCategoryByIdQueryRequest, IDataResult<GetCategoryByIdQueryResponse>>
     {

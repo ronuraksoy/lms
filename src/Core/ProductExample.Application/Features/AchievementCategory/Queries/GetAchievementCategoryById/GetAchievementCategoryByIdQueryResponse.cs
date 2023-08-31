@@ -1,4 +1,4 @@
-﻿namespace Lms.Application.Features.Teacher.Queries.GetAchievementCategoryById
+﻿namespace Lms.Application.Features.AchievementCategory.Queries.GetAchievementCategoryById
 {
     public class GetAchievementCategoryByIdQueryResponse
     {

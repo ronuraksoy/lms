@@ -2,7 +2,7 @@
 using MediatR;
 using System;
 
-namespace Lms.Application.Features.Teacher.Queries.GetAchievementCategoryById
+namespace Lms.Application.Features.AchievementCategory.Queries.GetAchievementCategoryById
 {
     public class GetAchievementCategoryByIdQueryRequest : IRequest<IDataResult<GetAchievementCategoryByIdQueryResponse>>
     {

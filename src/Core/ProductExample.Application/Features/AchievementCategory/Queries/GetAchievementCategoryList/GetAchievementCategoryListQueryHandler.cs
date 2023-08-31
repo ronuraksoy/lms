@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Lms.Application.Features.Teacher.Queries.GetAchievementCategoryList
+namespace Lms.Application.Features.AchievementCategory.Queries.GetAchievementCategoryList
 {
     public class GetAchievementCategoryListQueryHandler : IRequestHandler<GetAchievementCategoryListQueryRequest, IDataResult<IEnumerable<GetAchievementCategoryListQueryResponse>>>
     {

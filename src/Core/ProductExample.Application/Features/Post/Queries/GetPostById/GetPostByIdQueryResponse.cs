@@ -8,6 +8,6 @@ namespace Lms.Application.Features.Post.Queries.GetPostById
         public DateTime CreatedOn { get; set; }
         public string Message { get; set; }
         public int SenderID { get; set; }
-        public User User { get; set; }
+        public Lms.Domain.Entities.User User { get; set; }
     }
 }

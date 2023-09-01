@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -92,6 +92,25 @@
     <Folder Include="Features\Achievements\Queries\" />
     <Folder Include="Features\Classrooms\Commands\DeleteClassrooms\" />
     <Folder Include="Features\Classrooms\Commands\UpdateClassrooms\" />
+    <Folder Include="Features\Chat\Commands\DeleteChat\" />
+    <Folder Include="Features\Chat\Commands\UpdateChat\" />
+    <Folder Include="Features\Branch\Commands\DeleteBranch\" />
+    <Folder Include="Features\Branch\Commands\UpdateBranch\" />
+    <Folder Include="Features\BookRecommendations\Commands\DeleteBookRecommendations\" />
+    <Folder Include="Features\BookRecommendations\Commands\UpdateBookRecommendations\" />
+    <Folder Include="Features\AssignmentResult\Commands\DeleteAssignmentResult\" />
+    <Folder Include="Features\AssignmentResult\Commands\UpdateAssignmentResult\" />
+    <Folder Include="Features\AnnouncementStudent\Command\DeleteAnnouncementStudent\" />
+    <Folder Include="Features\AnnouncementStudent\Command\UpdateAnnouncementStudent\" />
+    <Folder Include="Features\Announcement\Commands\DeleteAnnouncement\" />
+    <Folder Include="Features\Announcement\Commands\UpdateAnnouncement\" />
+    <Folder Include="Features\Admin\Commands\CreateAdmin\" />
+    <Folder Include="Features\Admin\Commands\DeleteAdmin\" />
+    <Folder Include="Features\Admin\Commands\Validators\" />
+    <Folder Include="Features\Admin\Commands\UpdateAdmin\" />
+    <Folder Include="Features\Admin\Queries\GetAdminById\" />
+    <Folder Include="Features\Admin\Queries\GetAdminList\" />
+    <Folder Include="Features\Admin\Queries\GetAdminPagedList\" />
     <Folder Include="Features\School\Commands\DeleteSchool\" />
     <Folder Include="Features\School\Commands\UpdateSchool\" />
     <Folder Include="Features\Teacher\Commands\DeleteTeacher\" />

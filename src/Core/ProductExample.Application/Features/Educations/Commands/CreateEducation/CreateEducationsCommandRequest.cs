@@ -11,7 +11,7 @@ namespace Lms.Application.Features.Educations.Commands.CreateEducations
         public int TeacherID { get; set; }
         public Lms.Domain.Entities.Teacher Teacher { get; set; }
         public int? UnitID { get; set; }
-        public Unit Unit { get; set; }
+        public Lms.Domain.Entities.Unit Unit { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public string Content { get; set; }

@@ -1,6 +1,6 @@
-﻿using Lms.Application.Features.Teacher.Queries.GetCategoryById;
+﻿using Lms.Application.Features.Category.Queries.GetCategoryById;
 
-namespace Lms.Application.Features.Teacher.Queries.GetCategoryList
+namespace Lms.Application.Features.Category.Queries.GetCategoryList
 {
     public class GetCategoryListQueryResponse : GetCategoryByIdQueryResponse //Tabloda görünmesini istediğimiz bilgiler
     {

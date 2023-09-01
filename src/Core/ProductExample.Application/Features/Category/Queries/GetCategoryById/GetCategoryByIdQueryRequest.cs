@@ -2,7 +2,7 @@
 using MediatR;
 using System;
 
-namespace Lms.Application.Features.Teacher.Queries.GetCategoryById
+namespace Lms.Application.Features.Category.Queries.GetCategoryById
 {
     public class GetCategoryByIdQueryRequest : IRequest<IDataResult<GetCategoryByIdQueryResponse>>
     {

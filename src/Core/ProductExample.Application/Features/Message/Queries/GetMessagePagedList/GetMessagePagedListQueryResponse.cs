@@ -1,5 +1,4 @@
 ﻿using Lms.Comman.Domain.Entities;
-using Lms.Domain.Entities;
 using System;
 
 namespace Lms.Application.Features.Message.Queries.GetMessagePagedList

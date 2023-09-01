@@ -1,5 +1,4 @@
 ﻿using Lms.Application.Features.Base;
-using Lms.Domain.Entities;
 using System;
 
 namespace Lms.Application.Features.Message.Commands.CreateMessage

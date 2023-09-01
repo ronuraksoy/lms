@@ -1,5 +1,4 @@
-﻿using Lms.Domain.Entities;
-using System;
+﻿using System;
 
 namespace Lms.Application.Features.Message.Queries.GetMessageById
 {

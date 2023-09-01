@@ -90,6 +90,8 @@
     <Folder Include="Features\Achievements\Commands\DeleteAchievements\" />
     <Folder Include="Features\Achievements\Commands\UpdateAchievements\" />
     <Folder Include="Features\Achievements\Queries\" />
+    <Folder Include="Features\BookRecommendations\Commands\DeleteBookRecommendations\" />
+    <Folder Include="Features\BookRecommendations\Commands\UpdateBookRecommendations\" />
     <Folder Include="Features\AssignmentResult\Commands\DeleteAssignmentResult\" />
     <Folder Include="Features\AssignmentResult\Commands\UpdateAssignmentResult\" />
     <Folder Include="Features\AnnouncementStudent\Command\DeleteAnnouncementStudent\" />

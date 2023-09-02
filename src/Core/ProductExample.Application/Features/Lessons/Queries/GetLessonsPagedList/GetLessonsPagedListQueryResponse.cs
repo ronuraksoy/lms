@@ -16,6 +16,6 @@ namespace Lms.Application.Features.Lessons.Queries.GetLessonsPagedList
         public int CategoriesID { get; set; }
         public Lms.Domain.Entities.Category Category { get; set; }
         public int DepartmentID { get; set; }
-        public Department Department { get; set; }
+        public Lms.Domain.Entities.Department Department { get; set; }
     }
 }

@@ -90,6 +90,8 @@
     <Folder Include="Features\Achievements\Commands\DeleteAchievements\" />
     <Folder Include="Features\Achievements\Commands\UpdateAchievements\" />
     <Folder Include="Features\Achievements\Queries\" />
+    <Folder Include="Features\Comment\Commands\DeleteComment\" />
+    <Folder Include="Features\Comment\Commands\UpdateComment\" />
     <Folder Include="Features\Classrooms\Commands\DeleteClassrooms\" />
     <Folder Include="Features\Classrooms\Commands\UpdateClassrooms\" />
     <Folder Include="Features\Chat\Commands\DeleteChat\" />

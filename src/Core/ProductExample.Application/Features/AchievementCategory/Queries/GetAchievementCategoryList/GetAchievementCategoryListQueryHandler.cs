@@ -10,16 +10,16 @@ namespace Lms.Application.Features.AchievementCategory.Queries.GetAchievementCat
 {
     public class GetAchievementCategoryListQueryHandler : IRequestHandler<GetAchievementCategoryListQueryRequest, IDataResult<IEnumerable<GetAchievementCategoryListQueryResponse>>>
     {
-        readonly IAchievementCategoryRepository _categoryRepository;
+        readonly IAchievementCategoryRepository _achievementCategoryRepository;
         IMapper _mapper;
-        public GetAchievementCategoryListQueryHandler(IAchievementCategoryRepository categoryRepository, IMapper mapper)
+        public GetAchievementCategoryListQueryHandler(IAchievementCategoryRepository achievementCategoryRepository, IMapper mapper)
         {
-            _categoryRepository = categoryRepository;
+            _achievementCategoryRepository = achievementCategoryRepository;
             _mapper = mapper;
         }
         public async Task<IDataResult<IEnumerable<GetAchievementCategoryListQueryResponse>>> Handle(GetAchievementCategoryListQueryRequest request, CancellationToken cancellationToken)
         {
-            var data = await _categoryRepository.GetListAsync();
+            var data = await _achievementCategoryRepository.GetListAsync();
             var result = _mapper.Map<IEnumerable<GetAchievementCategoryListQueryResponse>>(data);
             return new DataResult<IEnumerable<GetAchievementCategoryListQueryResponse>>
             {

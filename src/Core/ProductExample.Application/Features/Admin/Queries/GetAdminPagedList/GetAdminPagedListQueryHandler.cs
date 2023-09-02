@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
+using Lms.Application.Features.Announcement.Queries.GetAnnouncementPagedList;
 using Lms.Application.Interfaces.Repositories;
 using Lms.Comman.Domain.Entities;
 using MediatR;
 using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -12,9 +14,11 @@ namespace Lms.Application.Features.Admin.Queries.GetAdminPagedList
     {
         readonly IAdminRepository _adminRepository;
         IMapper _mapper;
-        public Task<IPagedDataResult<GetAdminPagedListQueryResponse>> Handle(GetAdminPagedListQueryRequest request, CancellationToken cancellationToken)
+        public async Task<IPagedDataResult<GetAdminPagedListQueryResponse>> Handle(GetAdminPagedListQueryRequest request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var data = await _adminRepository.GetPagedList(request);
+            var result = _mapper.Map<IEnumerable<GetAdminPagedListQueryResponse>>(data.Data);
+            return new PagedDataResult<GetAdminPagedListQueryResponse>(data.RecordsTotal, data.RecordsFiltered, result, true, "Başarılı işlem...");
         }
 
         public GetAdminPagedListQueryHandler(IAdminRepository adminRepository, IMapper mapper)

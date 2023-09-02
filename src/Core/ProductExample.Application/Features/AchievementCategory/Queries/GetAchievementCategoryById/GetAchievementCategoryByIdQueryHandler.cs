@@ -9,16 +9,16 @@ namespace Lms.Application.Features.AchievementCategory.Queries.GetAchievementCat
 {
     public class GetAchievementCategoryByIdQueryHandler : IRequestHandler<GetAchievementCategoryByIdQueryRequest, IDataResult<GetAchievementCategoryByIdQueryResponse>>
     {
-        readonly IAchievementCategoryRepository _categoryRepository;
+        readonly IAchievementCategoryRepository _achievementCategoryRepository;
         IMapper _mapper;
-        public GetAchievementCategoryByIdQueryHandler(IAchievementCategoryRepository categoryRepository, IMapper mapper)
+        public GetAchievementCategoryByIdQueryHandler(IAchievementCategoryRepository achievementCategoryRepository, IMapper mapper)
         {
-            _categoryRepository = categoryRepository;
+            _achievementCategoryRepository = achievementCategoryRepository;
             _mapper = mapper;
         }
         public async Task<IDataResult<GetAchievementCategoryByIdQueryResponse>> Handle(GetAchievementCategoryByIdQueryRequest request, CancellationToken cancellationToken)
         {
-            var data = await _categoryRepository.GetByIdAsync(request);
+            var data = await _achievementCategoryRepository.GetByIdAsync(request);
             var result = _mapper.Map<GetAchievementCategoryByIdQueryResponse>(data);
             return new DataResult<GetAchievementCategoryByIdQueryResponse>
             {

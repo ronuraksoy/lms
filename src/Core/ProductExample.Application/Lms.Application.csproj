@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\AchievementCategory\Commands\DeleteAchievementCategory\**" />
+    <Compile Remove="Features\AchievementCategory\Commands\UpdateAchievementCategory\**" />
+    <Compile Remove="Features\Achievements\Commands\DeleteAchievements\**" />
+    <Compile Remove="Features\Achievements\Commands\UpdateAchievements\**" />
     <Compile Remove="Features\Educations\Commands\DeleteTeacher\**" />
     <Compile Remove="Features\Educations\Commands\UpdateTeacher\**" />
     <Compile Remove="Features\EventParticipantsAnswer\Commands\DeleteTeacher\**" />
@@ -25,6 +29,12 @@
     <Compile Remove="Features\ExamsQuestions\Commands\UpdateTeacher\**" />
     <Compile Remove="Features\Exams\Commands\DeleteTeacher\**" />
     <Compile Remove="Features\Exams\Commands\UpdateTeacher\**" />
+    <Compile Remove="Features\School\Commands\DeleteSchool\**" />
+    <Compile Remove="Features\School\Commands\UpdateSchool\**" />
+    <EmbeddedResource Remove="Features\AchievementCategory\Commands\DeleteAchievementCategory\**" />
+    <EmbeddedResource Remove="Features\AchievementCategory\Commands\UpdateAchievementCategory\**" />
+    <EmbeddedResource Remove="Features\Achievements\Commands\DeleteAchievements\**" />
+    <EmbeddedResource Remove="Features\Achievements\Commands\UpdateAchievements\**" />
     <EmbeddedResource Remove="Features\Educations\Commands\DeleteTeacher\**" />
     <EmbeddedResource Remove="Features\Educations\Commands\UpdateTeacher\**" />
     <EmbeddedResource Remove="Features\EventParticipantsAnswer\Commands\DeleteTeacher\**" />
@@ -45,6 +55,12 @@
     <EmbeddedResource Remove="Features\ExamsQuestions\Commands\UpdateTeacher\**" />
     <EmbeddedResource Remove="Features\Exams\Commands\DeleteTeacher\**" />
     <EmbeddedResource Remove="Features\Exams\Commands\UpdateTeacher\**" />
+    <EmbeddedResource Remove="Features\School\Commands\DeleteSchool\**" />
+    <EmbeddedResource Remove="Features\School\Commands\UpdateSchool\**" />
+    <None Remove="Features\AchievementCategory\Commands\DeleteAchievementCategory\**" />
+    <None Remove="Features\AchievementCategory\Commands\UpdateAchievementCategory\**" />
+    <None Remove="Features\Achievements\Commands\DeleteAchievements\**" />
+    <None Remove="Features\Achievements\Commands\UpdateAchievements\**" />
     <None Remove="Features\Educations\Commands\DeleteTeacher\**" />
     <None Remove="Features\Educations\Commands\UpdateTeacher\**" />
     <None Remove="Features\EventParticipantsAnswer\Commands\DeleteTeacher\**" />
@@ -65,6 +81,8 @@
     <None Remove="Features\ExamsQuestions\Commands\UpdateTeacher\**" />
     <None Remove="Features\Exams\Commands\DeleteTeacher\**" />
     <None Remove="Features\Exams\Commands\UpdateTeacher\**" />
+    <None Remove="Features\School\Commands\DeleteSchool\**" />
+    <None Remove="Features\School\Commands\UpdateSchool\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -82,43 +100,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\AchievementCategory\Commands\DeleteAchievementCategory\" />
-    <Folder Include="Features\AchievementCategory\Commands\UpdateAchievementCategory\" />
     <Folder Include="Features\AchievementCategory\Queries\GetAchievementCategoryById\" />
     <Folder Include="Features\AchievementCategory\Queries\GetAchievementCategoryList\" />
     <Folder Include="Features\Achievements\Commands\CreateAchievements\" />
-    <Folder Include="Features\Achievements\Commands\DeleteAchievements\" />
-    <Folder Include="Features\Achievements\Commands\UpdateAchievements\" />
     <Folder Include="Features\Achievements\Queries\" />
-    <Folder Include="Features\ContactMessage\Commands\DeleteContactMessage\" />
-    <Folder Include="Features\ContactMessage\Commands\UpdateContactMessage\" />
-    <Folder Include="Features\Comment\Commands\DeleteComment\" />
-    <Folder Include="Features\Comment\Commands\UpdateComment\" />
-    <Folder Include="Features\Classrooms\Commands\DeleteClassrooms\" />
-    <Folder Include="Features\Classrooms\Commands\UpdateClassrooms\" />
-    <Folder Include="Features\Chat\Commands\DeleteChat\" />
-    <Folder Include="Features\Chat\Commands\UpdateChat\" />
-    <Folder Include="Features\Branch\Commands\DeleteBranch\" />
-    <Folder Include="Features\Branch\Commands\UpdateBranch\" />
-    <Folder Include="Features\BookRecommendations\Commands\DeleteBookRecommendations\" />
-    <Folder Include="Features\BookRecommendations\Commands\UpdateBookRecommendations\" />
-    <Folder Include="Features\AssignmentResult\Commands\DeleteAssignmentResult\" />
-    <Folder Include="Features\AssignmentResult\Commands\UpdateAssignmentResult\" />
-    <Folder Include="Features\AnnouncementStudent\Command\DeleteAnnouncementStudent\" />
-    <Folder Include="Features\AnnouncementStudent\Command\UpdateAnnouncementStudent\" />
-    <Folder Include="Features\Announcement\Commands\DeleteAnnouncement\" />
-    <Folder Include="Features\Announcement\Commands\UpdateAnnouncement\" />
     <Folder Include="Features\Admin\Commands\CreateAdmin\" />
-    <Folder Include="Features\Admin\Commands\DeleteAdmin\" />
     <Folder Include="Features\Admin\Commands\Validators\" />
-    <Folder Include="Features\Admin\Commands\UpdateAdmin\" />
     <Folder Include="Features\Admin\Queries\GetAdminById\" />
     <Folder Include="Features\Admin\Queries\GetAdminList\" />
     <Folder Include="Features\Admin\Queries\GetAdminPagedList\" />
-    <Folder Include="Features\School\Commands\DeleteSchool\" />
-    <Folder Include="Features\School\Commands\UpdateSchool\" />
-    <Folder Include="Features\Teacher\Commands\DeleteTeacher\" />
-    <Folder Include="Features\Teacher\Commands\UpdateTeacher\" />
   </ItemGroup>
 
 </Project>

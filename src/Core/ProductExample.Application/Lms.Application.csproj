@@ -102,8 +102,6 @@
   <ItemGroup>
     <Folder Include="Features\AchievementCategory\Queries\GetAchievementCategoryById\" />
     <Folder Include="Features\AchievementCategory\Queries\GetAchievementCategoryList\" />
-    <Folder Include="Features\Achievements\Commands\CreateAchievements\" />
-    <Folder Include="Features\Achievements\Queries\" />
     <Folder Include="Features\Admin\Commands\CreateAdmin\" />
     <Folder Include="Features\Admin\Commands\Validators\" />
     <Folder Include="Features\Admin\Queries\GetAdminById\" />
